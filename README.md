@@ -11,4 +11,4 @@ add or subtract is pretty easy:
     add_or_sub = int_val.then(rep(l("+").oor(l("-")).then(int_val)))
 
 Which for the input "1+2+3-4" will yield `Success((1, [('+', 2), ('+', 3), ('-', 4)]), )`.
-Nothing to fancy, but fun to get working to some degree.
+Nothing too fancy, but fun to get working to some degree.
